@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #111111;
+}
+
+canvas{
+    border: 1px solid ;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    padding: 10px;
+}
+
+.score div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(155, 26, 148);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score div:first-child { 
+    background-color: rgb(88, 170, 218);
+}
+
